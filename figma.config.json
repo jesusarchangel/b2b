@@ -1,0 +1,9 @@
+{
+  "codeConnect": {
+    "react": {
+      "importPaths": {
+        "src/components/*": "@b2b/components/*"
+      }
+    }
+  }
+}
