@@ -19,13 +19,13 @@ export interface SegmentedButtonProps {
 }
 
 const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
-  backgroundColor: '#F3F4F6',
-  padding: 2,
-  borderRadius: theme.shape.borderRadius,
-  gap: 2,
+  backgroundColor: '#E5E7EB',
+  padding: 4,
+  borderRadius: 6,
+  gap: 4,
   '& .MuiToggleButtonGroup-grouped': {
     border: 'none',
-    borderRadius: `${theme.shape.borderRadius}px !important`,
+    borderRadius: '4px !important',
     color: theme.palette.text.primary,
     textTransform: 'none',
     fontWeight: theme.typography.button.fontWeight,
@@ -63,7 +63,7 @@ export const SegmentedButton: React.FC<SegmentedButtonProps> = ({
           key={option.value}
           value={option.value}
           size={size}
-          sx={{ px: 1.5, py: 0.5, gap: 0.5 }}
+          sx={{ px: 1.5, py: 0.5, gap: 1 }}
         >
           {option.icon}
           {option.label}
