@@ -10,6 +10,8 @@ figma.connect(
   SegmentedButton,
   'https://www.figma.com/design/yfulxIdI8ysNiDrPwMRAWS/Segmented-button?node-id=81-633',
   {
+    sourceUrl:
+      'https://github.com/jesusarchangel/b2b/blob/main/src/components/SegmentedButton/SegmentedButton.tsx',
     props: {
       options: figma.nestedProps('.inner component / Button', {
         value: figma.string('Text'),
