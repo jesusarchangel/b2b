@@ -19,7 +19,7 @@ export interface SegmentedButtonProps {
 }
 
 const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
-  backgroundColor: '#E5E7EB',
+  backgroundColor: '#F3F4F6',
   padding: 4,
   borderRadius: 6,
   gap: 4,
@@ -31,7 +31,7 @@ const StyledToggleButtonGroup = styled(ToggleButtonGroup)(({ theme }) => ({
     fontWeight: theme.typography.button.fontWeight,
     '&.Mui-selected': {
       backgroundColor: '#FFFFFF',
-      boxShadow: theme.shadows[1],
+      boxShadow: '0px 2px 2px rgba(17, 24, 39, 0.15)',
       color: theme.palette.text.primary,
       '&:hover': {
         backgroundColor: '#FFFFFF',
